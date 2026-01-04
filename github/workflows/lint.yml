@@ -1,0 +1,16 @@
+bame : lint
+
+on : 
+pull_request :
+branches :
+- dev
+- main
+
+jobs :
+  lint:
+    runs-on: ubuntu-latest
+    name: Check lint
+    steps:
+    - uses: actions/checkout@v3
+    - run: npm install
+    - run: npm run lint
