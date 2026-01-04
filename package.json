@@ -14,11 +14,12 @@
   "dependencies": {
     "@nuxtjs/sanity": "^2.0.0",
     "@sanity/image-url": "^2.0.2",
+    "@vue/compiler-sfc": "^3.5.26",
     "groq": "^4.20.3",
     "jwt-decode": "^4.0.0",
     "lint": "^0.8.19",
     "nuxt": "4.1.2",
-    "vue": "^3.5.25",
+    "vue": "^3.5.26",
     "vue-router": "^4.6.3"
   },
   "devDependencies": {
